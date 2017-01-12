@@ -21,7 +21,6 @@
                         imageUrl: 'https://www.pexels.com/photo/white-orange-and-black-octopus-on-white-sea-sand-during-daytime-169599/'
                         voteRating: 0,
                         date: Date.now()
-
                     }]
                 }
 
