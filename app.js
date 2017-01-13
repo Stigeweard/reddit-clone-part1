@@ -55,7 +55,6 @@
                     if (!post.comments) {
                         post.comments = [];
                     }
-                    console.log(post.comments);
                     post.comments.push(post.comment)
                     delete post.comment
                 }

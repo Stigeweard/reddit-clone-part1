@@ -79,8 +79,9 @@
           |
           <i class="glyphicon glyphicon-comment"></i>
           <a>
-              <ng-pluralize count="post.comments.length"
+              <ng-pluralize count="post.comments.length || 0"
                             when="{
+                                '0': 'No comments yet!',
                                 'one': '1 Comment',
                                 'other': '{} Comments'
                             }">
