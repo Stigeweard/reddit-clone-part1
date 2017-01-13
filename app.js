@@ -14,7 +14,7 @@
                         title: 'Slipsum!',
                         body: "Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends.",
                         author: 'buddybro',
-                        imageUrl: 'https://images.pexels.com/photos/141707/pexels-photo-141707.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb',
+                        imageUrl: 'http://ratemystartup.com/wp-content/uploads/2011/08/ava-300x300.jpg',
                         voteRating: 0,
                         date: Date.now(),
                         commentToggle: false
