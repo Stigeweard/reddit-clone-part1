@@ -78,9 +78,10 @@
           {{post.date | date:"medium"}}
           |
           <i class="glyphicon glyphicon-comment"></i>
-          <a>
-              <ng-pluralize count="post.comments.length"
+          <a ng-click="post.commentToggle = !post.commentToggle">
+              <ng-pluralize   count="post.comments.length || 0"
                             when="{
+                                '0': 'No Comments Yet',
                                 'one': '1 Comment',
                                 'other': '{} Comments'
                             }">
@@ -91,7 +92,7 @@
         <div class="row">
           <div class="col-md-offset-1">
             <hr>
-            <p ng-repeat="comment in post.comments">
+            <p ng-repeat="comment in post.comments" ng-hide="post.commentToggle">
               {{comment}}
             </p>
             <form class="form-inline">
