@@ -3,7 +3,7 @@
 
     angular.module('app', [])
         .component('postForm', {
-            controller: function appController() {
+            controller: function () {
                 const vm = this
                 vm.toggle = true;
                 vm.filter = '';
