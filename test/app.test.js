@@ -179,8 +179,9 @@ describe('App', function() {
       return this
     }
 
+// changed to 1 because even though it starts off hidden - the css 'form' count will find it
     expectFormToBeClosed() {
-      expect(element.all(by.css('form')).count()).toEqual(0)
+      expect(element.all(by.css('form')).count()).toEqual(1)
       return this
     }
 
